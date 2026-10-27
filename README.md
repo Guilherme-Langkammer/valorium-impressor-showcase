@@ -60,9 +60,22 @@ flowchart LR
 
 This showcase describes both work in progress and architectural goals. Individual capabilities must be validated against the current private build before being described as released or production-ready. See [technical challenges](docs/technical-challenges.md).
 
-## Visual documentation
+## Application preview
 
-Sanitized application screenshots and diagrams may be added to `assets/` after privacy and security review. No production screenshots are included in this initial release.
+The following screenshot shows the **Valorium Impressor 2.0 local configuration interface** running on Windows.
+
+![Valorium Impressor 2.0 — Windows printer selection and local configuration](assets/screenshots/valorium-impressor-2-config.png)
+
+*Actual application screenshot. The interface displays a selected MP-4200 TH printer, two detected printers, and the local agent in disconnected/configuration mode. No print job was sent in this state.*
+
+### What this screen demonstrates
+
+- **Windows printer discovery:** the application displays printers detected on the computer.
+- **Printer selection:** a dropdown allows the operator to choose a primary printer.
+- **Local configuration:** controls are provided to refresh the printer list and save the selected printer.
+- **Operational visibility:** the interface displays the configured printer, detected printer count, and agent connection state.
+
+**Scope of evidence:** this screenshot demonstrates the local configuration UI only. It does not establish successful server connectivity, automatic job processing, or end-to-end printing. Those capabilities require separate validation.
 
 ## My role
 
