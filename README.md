@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/valorium-impressor-banner.png" alt="Valorium Impressor — Windows Print Automation Agent" width="100%">
+</p>
+
 <div align="center">
 
 # Valorium Impressor
